@@ -1,0 +1,53 @@
+﻿.container-fluid {
+    height: 100vh;
+}
+
+/* Left side (black) */
+.login-left {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right side (white) */
+.login-right {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Login form container */
+.login-form {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Big welcome text */
+.welcome-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.custom-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 5px; /* Rounded corners */
+   
+    background-color: white;
+}
+
+    .custom-btn:hover {
+        background-color: mediumpurple; /* Darker blue on hover */
+        /* Slightly enlarge the button on hover */
+    }
+
