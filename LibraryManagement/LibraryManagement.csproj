@@ -2177,13 +2177,16 @@
     <Content Include="Fontawesome\svgs\solid\z.svg" />
     <Content Include="Pages\HomePage.aspx" />
     <Content Include="Image\svg\home.svg" />
+    <Content Include="Pages\LeaveGroup.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\SignUp.aspx" />
     <Content Include="Pages\UserItem.aspx" />
     <Content Include="Pages\UserProfile.aspx" />
+    <Content Include="PopUp.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\DBHelper.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2197,6 +2200,13 @@
     </Compile>
     <Compile Include="Pages\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LeaveGroup.aspx.cs">
+      <DependentUpon>LeaveGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LeaveGroup.aspx.designer.cs">
+      <DependentUpon>LeaveGroup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -2225,6 +2235,13 @@
     </Compile>
     <Compile Include="Pages\UserProfile.aspx.designer.cs">
       <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp.ascx.cs">
+      <DependentUpon>PopUp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUp.ascx.designer.cs">
+      <DependentUpon>PopUp.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
