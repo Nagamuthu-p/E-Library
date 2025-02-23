@@ -31,5 +31,14 @@ namespace LibraryManagement.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LibraryManagement.PopUp LeaveTypeModalControl;
+
+        /// <summary>
+        /// gvLeaveTypes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvLeaveTypes;
     }
 }

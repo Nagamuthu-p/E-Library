@@ -15,7 +15,7 @@
                     <asp:Panel ID="formPanel" runat="server" CssClass="mb-3"></asp:Panel>
 
                     <div class="modal-footer">
-                        <asp:Button ID="btnSaveLeaveType" runat="server" Text="Save" CssClass="btn btn-primary"  />
+                        <asp:Button ID="btnSaveLeaveType" runat="server" Text="Save" CssClass="btn btn-primary" OnClick="SaveLeaveGroup" />
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
           

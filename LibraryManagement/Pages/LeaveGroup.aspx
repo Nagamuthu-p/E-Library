@@ -24,6 +24,15 @@
         <hr>
     </div>
 
+
+    <h3 class="mt-4">Available Leave Types</h3>
+<asp:GridView ID="gvLeaveTypes" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered mt-3" EmptyDataText="No leave types found.">
+    <Columns>
+        <asp:BoundField DataField="LeaveTypeID" HeaderText="ID" />
+        <asp:BoundField DataField="LeaveName" HeaderText="Leave Name" />
+        <asp:BoundField DataField="EligibleDays" HeaderText="Eligible Days" />
+    </Columns>
+</asp:GridView>
     <script>
         function openModal() {
             console.log("Opening Modal...");
