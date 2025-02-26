@@ -2175,6 +2175,8 @@
     <Content Include="Fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="Fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="Fontawesome\svgs\solid\z.svg" />
+    <Content Include="Pages\ApplyLeave.aspx" />
+    <Content Include="Pages\AssignLeaveGroup.aspx" />
     <Content Include="Pages\HomePage.aspx" />
     <Content Include="Image\svg\home.svg" />
     <Content Include="Pages\LeaveGroup.aspx" />
@@ -2193,6 +2195,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ApplyLeave.aspx.cs">
+      <DependentUpon>ApplyLeave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ApplyLeave.aspx.designer.cs">
+      <DependentUpon>ApplyLeave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AssignLeaveGroup.aspx.cs">
+      <DependentUpon>AssignLeaveGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AssignLeaveGroup.aspx.designer.cs">
+      <DependentUpon>AssignLeaveGroup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

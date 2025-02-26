@@ -46,7 +46,7 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link text-white" href="<%= ResolveUrl("~/Pages/HomePage.aspx") %>">Home</a>
                         <a class="nav-item nav-link text-white" href="<%= ResolveUrl("~/Pages/LeaveGroup.aspx") %>">Leave Group</a>
-                        <a class="nav-item nav-link text-white" href="#">Pricing</a>
+                        <a class="nav-item nav-link text-white" href="<%= ResolveUrl("~/Pages/AssignLeaveGroup.aspx") %>">Assign Group</a>
                     </div>
                     <!-- Sign In link aligned to the right -->
 
